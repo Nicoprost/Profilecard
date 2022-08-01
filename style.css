@@ -1,0 +1,109 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+body
+{
+    background-color:#e1e1e1;
+    overflow: hidden;
+    
+}
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:100vh;
+}
+ .card
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    width: 300px;
+    border-radius: 20px;
+    background: url(media/PortraitNpt.jpg)center center no-repeat;
+    background-size: 300px;
+    box-shadow: 0 70px 60px -60px #000;
+}
+
+.border
+{
+   position: relative; 
+   height: 340px;
+   width: 260px;
+   background: transparent;
+   border-radius: 20px;
+   opacity: 0;
+  
+}
+.border:hover
+{
+    opacity: 0.9;
+    border: 3px solid #fff;
+    
+}
+.icons
+{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #e1e1e1;
+    height: 160px;
+    width: 50px;
+    top:175px;
+    font-size:1.5rem;
+    cursor:pointer;
+    
+}
+a 
+{
+    text-decoration: none; 
+    color:#e1e1e1;
+    
+}
+.card h2
+{
+    font-family: 'Kanit', sans-serif;
+    margin:15px;
+    color: #e1e1e1;
+    font-size: 2rem;
+} 
+.card h3
+{
+    position: absolute;
+    left:90px;
+    bottom:0px;
+    width: 150px;
+    font-family: 'Kanit', sans-serif;
+    margin:15px;
+    color: #e1e1e1;
+    
+}
+.card ion-icon:hover
+{
+    opacity: 0.7;
+    box-shadow: 0px 0px 10px rgba(204, 32, 32, 0.788),
+    inset 5em 5em rgba(204, 32, 32, 0.788);
+    border-radius: 30%;
+}
+.card:hover
+{
+    background: url(media/PortraitNpt.jpg) center no-repeat;
+    background: url(media/PortraitNpt.jpg)  left no-repeat;
+    background-size: 500px;
+    
+    
+}
+.card, 
+.border,
+.card h2,
+.card ion-icon
+{
+    transition: background 1.5s,  opacity 0.7s ease-in-out;
+}
