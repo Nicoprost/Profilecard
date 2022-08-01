@@ -25,7 +25,7 @@ body
     height: 380px;
     width: 300px;
     border-radius: 20px;
-    background: url(media/PortraitNpt.jpg)center center no-repeat;
+    background: url(media/PortraitNpt.jpg)center top no-repeat;
     background-size: 300px;
     top:-50px;
     box-shadow: 0px 70px 80px -40px #000;
